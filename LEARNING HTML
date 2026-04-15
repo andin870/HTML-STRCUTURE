@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struktur Web Semantic - Portofolio Saya</title>
+</head>
+<body>
+
+    <header>
+        <h1>Selamat Datang di Website Saya</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tentang">Tentang Saya</a></li>
+                <li><a href="#proyek">Proyek</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="tentang">
+            <h2>Tentang Saya</h2>
+            <p>Halo! Saya adalah seorang pendidik yang sedang menekuni dunia web development.</p>
+        </section>
+
+        <section id="proyek">
+            <h2>Proyek Terbaru</h2>
+            
+            <article>
+                <h3>Website Portofolio</h3>
+                <p>Ini adalah proyek pertama saya menggunakan HTML dan CSS yang diunggah ke GitHub.</p>
+                <small>Diterbitkan pada: 15 April 2026</small>
+            </article>
+
+            <article>
+                <h3>Aplikasi Belajar Anak</h3>
+                <p>Proyek bantu mengajar untuk siswa SD menggunakan elemen web interaktif.</p>
+                <small>Diterbitkan pada: 10 April 2026</small>
+            </article>
+        </section>
+
+        <aside>
+            <h4>Info Menarik</h4>
+            <p>Tahukah kamu? Penggunaan tag semantic membantu Google menemukan website kita lebih cepat!</p>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Dibuat dengan semangat oleh Saya.</p>
+        <nav>
+            <a href="#">Kebijakan Privasi</a> | 
+            <a href="#">Syarat & Ketentuan</a>
+        </nav>
+    </footer>
+
+</body>
+</html> 
